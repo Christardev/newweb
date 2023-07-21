@@ -1,0 +1,166 @@
+html{
+    border: 0;
+    margin: 0;
+    width: 100%;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+
+
+}
+header{margin: 0;
+
+}
+.yes{
+    display: flex;
+}
+.yes>p{
+    margin-left: 900px;
+    color: #76bbf7;
+}
+.yes>p>img{
+    width: 40px;
+}
+header nav{
+    background-image: url(images/team.jpg);
+    background-size: cover;
+   /* padding: 50px;*/
+    width: 100%;
+    border: 0;
+    /*border-bottom: 5px solid rgb(10, 141, 255);*/
+    box-shadow: 5px 5px 10px  rgb(10, 141, 255);
+    position: fixed;
+    margin: 0;
+    
+}
+header nav ul{
+
+display: flex;
+margin:0 px ;
+padding: 5px;
+
+}
+header nav >span{
+    color: rgb(10, 141, 255);
+    /*text-align: center;*/
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 30px;
+    text-shadow: 4px 4px 10px rgb(10, 141, 255);
+}
+header nav >h2{
+    color: rgb(10, 141, 255);
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 0;
+    text-shadow: 4px 4px 10px rgb(10, 141, 255);
+    word-spacing: 0.5em;
+
+}
+header nav ul li{
+    padding:0 5px;
+    margin: 0 10px;
+    list-style: none;
+    
+
+
+}
+header nav ul li a{
+text-decoration: none;
+color:  gold;
+font-weight:lighter;
+font-size: 20px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}
+header nav ul li a:hover{
+    color: rgb(10, 141, 255);
+
+}
+/*finie avec header*/
+main{
+    display: flexbox;
+    padding-top: 250px;
+    background-color: antiquewhite;
+    padding-bottom: 200px;
+    padding-left: 180px;
+}
+.teams{
+    margin-right: 20px;
+   /* background-color: antiquewhite;*/
+    width: 1000px;
+    height: 500px;
+    margin-bottom: 0;
+    display: flex;
+    text-align: center;
+    
+}
+.team{
+    
+    width: 350px;
+    height: 500px;
+    background-color: gold;
+    margin: 0 10px;
+    display: block;
+}
+.team>.div1{
+    background-image: url(images/man-in-tailored-suit.jpg);
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    background-color: aquamarine;
+    border-top-left-radius: 50px;
+
+}
+.team>.div2{
+    background-image: url(images/welcome-to-my-business.jpg);
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    background-color: aquamarine;
+    border-top-left-radius: 50px;
+
+}
+.team>.div3{
+    background-image: url(images/woman-puts-hand-in-pocket.jpg);
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    background-color: aquamarine;
+    border-top-left-radius: 50px;
+
+}
+.team>p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: large;
+    font-size: 20px;
+}
+.team>h3{
+     
+    color:rgb(10, 141, 255);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+
+}
+.team>h4{
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 15px;
+
+}
+main>p{
+    color:black;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}

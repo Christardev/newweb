@@ -1,0 +1,206 @@
+html{
+    border: 0;
+    margin: 0;
+    width: 100%;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+
+
+}
+header{margin: 0;
+
+}
+.yes{
+    display: flex;
+}
+.yes>p{
+    margin-left: 900px;
+    color: #76bbf7;
+}
+.yes>p>img{
+    width: 40px;
+}
+header nav{
+    background-image: url(images/ripe-red-strawberries-in-a-white-bowl.jpg);
+    background-size: cover;
+   /* padding: 50px;*/
+    width: 100%;
+    border: 0;
+    /*border-bottom: 5px solid rgb(10, 141, 255);*/
+    box-shadow: 5px 5px 10px  rgb(10, 141, 255);
+    position: fixed;
+    margin: 0;
+    
+    
+}
+header nav ul{
+
+display: flex;
+margin:0 px ;
+padding: 5px;
+
+}
+header nav >span{
+    color: rgb(10, 141, 255);
+    /*text-align: center;*/
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 30px;
+    text-shadow: 4px 4px 10px rgb(10, 141, 255);
+}
+header nav >h2{
+    color: rgb(10, 141, 255);
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 0;
+    text-shadow: 4px 4px 10px #0a8dff;
+    word-spacing: 0.5em;
+
+}
+header nav ul li{
+    padding:0 5px;
+    margin: 0 10px;
+    list-style: none;
+    
+
+
+}
+header nav ul li a{
+text-decoration: none;
+color:  gold;
+font-weight:lighter;
+font-size: 20px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}
+header nav ul li a:hover{
+    color: rgb(10, 141, 255);
+
+}
+/*finie avec header*/
+
+main{
+    padding-top: 200px;
+}
+
+main .menu{
+    margin-top: 50px;
+    background-color:burlywood;
+    text-align: center;
+    justify-content: center;
+    margin: 50px 50px;
+    border-top-left-radius:20%;
+    border-bottom-right-radius: 20%;
+}
+main .menu .men{
+    background-color:darkgoldenrod;
+    text-align: center;
+    justify-content: center;
+    margin: 70px 50px 50px 50px;
+    padding: 5px;
+
+}
+
+.item{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin: 10px 90px;
+    
+}
+.item .pic1{
+    background-image:url(images/coffee.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+}
+
+.item .pic2{
+    background-image:url(images/blackcoffee.jpg);
+    background-size: cover;
+
+    width: 400px;
+    height: 200px;
+}
+
+.item .pic3{
+    background-image:url(images/vegan-pasta-with\ veggie.jpg);
+    background-size: cover;
+
+    width: 400px;
+    height: 200px;
+}
+/*.item .pic4{
+    background-image:url(vegan-pasta-with\ veggie.jpg);
+    background-size: cover;
+
+    width: 400px;
+    height: 200px;
+}*/
+.item .pic5{
+    background-image:url(images/breakfast-buffet-fruit-orange-apple-citrus-tasty.jpg);
+    background-size: cover;
+
+    width: 400px;
+    height: 200px;
+}
+
+.item .pic6{
+    background-image:url(images/bean-corn-salad.jpg);
+    background-size: cover;
+
+    width: 400px;
+    height: 200px;
+}
+
+.item .pic7{
+    background-image:url(images/pickle-sandwich-chips-food.jpg);
+    background-size: cover;
+
+    width: 400px;
+    height: 200px;
+}
+
+.item .pic8{
+    background-image:url(images/healthy-and-indulgent-food.jpg);
+    background-size: cover;
+
+    width: 400px;
+    height: 200px;
+}
+
+.item .pic9{
+    background-image:url(images/chef-food-plated-sandwich.jpg);
+    background-size: cover;
+
+    width: 400px;
+    height: 200px;
+}
+
+.item .pic10{
+    background-image:url(images/grilled-cheese.jpg);
+    background-size: cover;
+
+    width: 400px;
+    height: 200px;
+}
+.name{
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: larger;
+}
+.text{
+    color:rgb(10, 141, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+/*done main*/
+
+

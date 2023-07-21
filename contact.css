@@ -1,0 +1,203 @@
+html{
+    border: 0;
+    margin: 0;
+    width: 100%;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+
+
+}
+header{margin: 0;
+
+}
+.yes{
+    display: flex;
+}
+.yes>p{
+    margin-left: 900px;
+    color: #76bbf7;
+}
+.yes>p>img{
+    width: 40px;
+}
+header nav{
+    background-image: url(images/woman-talks-on-her-cell-phone-beside-her-luggage.jpg);
+    background-size: cover;
+   /* padding: 50px;*/
+    width: 100%;
+    border: 0;
+    /*border-bottom: 5px solid rgb(10, 141, 255);*/
+    box-shadow: 5px 5px 10px  rgb(10, 141, 255);
+    position: fixed;
+    margin: 0;
+    
+}
+header nav ul{
+
+display: flex;
+margin:0 px ;
+padding: 5px;
+
+}
+header nav >span{
+    color: rgb(10, 141, 255);
+    /*text-align: center;*/
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 30px;
+    text-shadow: 4px 4px 10px rgb(10, 141, 255);
+}
+header nav >h2{
+    color: rgb(0, 136, 255);
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 0;
+    text-shadow: 4px 4px 10px rgb(10, 141, 255);
+    word-spacing: 0.5em;
+
+}
+header nav ul li{
+    padding:0 5px;
+    margin: 0 10px;
+    list-style: none;
+    
+
+
+}
+header nav ul li a{
+text-decoration: none;
+color:  gold;
+font-weight:lighter;
+font-size: 20px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}
+header nav ul li a:hover{
+    color: rgb(10, 141, 255);
+
+}
+/*finie avec header*/
+main{
+    display: flexbox;
+    padding-top: 250px;
+    padding-bottom: 200px;
+    padding-left: 180px;
+    background-image: url(images/brooke.jpg);
+    background-size: cover;
+}
+.teams{
+    margin-right: 20px;
+    background-color: cadetblue;
+    width: 1000px;
+    height: 500px;
+    margin: 15px;
+    display: flex;
+    padding: 0;
+    box-shadow: 3px 3px 12px rgb(10, 141, 255);
+    border: 1px solid rgb(10, 141, 255);
+    border-radius: 10px;
+
+}
+.p{
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 500px;
+    margin: 0;
+    padding: 15px;
+
+}
+
+
+/*form*/
+form{
+    width: 500px;
+    height: 500px;
+    padding: 15px  ;
+    background-color: antiquewhite;
+    
+    
+    
+ }
+ form:hover{
+    box-shadow: 3px -0px 3px rgb(10, 141, 255);
+    color: rgb(10, 141, 255);
+
+ }
+ form  fieldset{
+    border: 0;
+    margin: 0;
+    
+   
+
+ }
+ form  fieldset  input{
+    width: 99%;
+    border-style: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    outline: none;
+    
+ }
+ input+label{
+    display: block;
+    pointer-events: none;
+    background-color: #76bbf7;
+ }
+ 
+
+ input+label:focus~label{
+    border-color:rgb(0, 0, 0);
+    top: -15px;
+    display: inline-block;
+ 
+
+ }
+ input{
+    width: 100%;
+    border-radius: 10px;
+    height: 30px;
+    padding: 0 5px;
+ }
+  
+ form  fieldset label{
+    margin: 0;
+    padding: 0;
+ }
+ form h4{
+    text-align: center;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+ }
+
+ form  fieldset textarea{
+    border: 2px solid rgb(208, 233, 255);
+    width: 99%;
+    outline: none;
+ }
+
+ button{
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: solid;
+    border: 2px solid rgb(208, 233, 255);
+    padding: 5px 10px;
+    width: 130px;
+    border-radius: 10px;
+    margin: 0;
+    margin-top: 30px;
+ }
+ button:hover{
+    background-color: darkorange;
+
+ }
